@@ -35,6 +35,7 @@ const HomePage = () => {
         setAllPost(result.data.reverse());
       }
     } catch (err) {
+      console.log(err);
       alert(err);
     } finally {
       setLoading(false);
