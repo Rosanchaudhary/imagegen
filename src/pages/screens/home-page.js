@@ -57,6 +57,7 @@ const HomePage = () => {
   };
 
   useEffect(() => {
+    console.log("Hello there");
     console.log(process.env.OPENAI_API_KEY);
     fetchPosts();
   }, []);
