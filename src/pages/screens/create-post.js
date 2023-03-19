@@ -36,6 +36,7 @@ const CreatePost = () => {
         alert("Success");
         router.push("/");
       } catch (err) {
+        console.log(err);
         alert(err);
       } finally {
         setLoading(false);
